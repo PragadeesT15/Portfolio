@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="orbitGradient" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4DE3FF" />
+      <stop offset="0.55" stop-color="#5B8CFF" />
+      <stop offset="1" stop-color="#9B6BFF" />
+    </linearGradient>
+    <radialGradient id="core" cx="0" cy="0" r="1" gradientTransform="translate(24 22) rotate(48) scale(20)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D9FBFF" />
+      <stop offset="1" stop-color="#5B8CFF" stop-opacity="0.25" />
+    </radialGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#05060A" />
+  <rect x="0.5" y="0.5" width="63" height="63" rx="15.5" stroke="url(#orbitGradient)" stroke-opacity="0.35" />
+  <circle cx="32" cy="32" r="15.5" stroke="url(#orbitGradient)" stroke-width="1.5" stroke-opacity="0.85" />
+  <ellipse cx="32" cy="32" rx="24" ry="9.5" transform="rotate(-32 32 32)" stroke="url(#orbitGradient)" stroke-width="1" stroke-opacity="0.4" stroke-dasharray="2 4" />
+  <circle cx="32" cy="32" r="8" fill="url(#core)" />
+  <circle cx="32" cy="32" r="3" fill="#D9FBFF" />
+  <circle cx="48" cy="20" r="2.4" fill="#4DE3FF" />
+</svg>
